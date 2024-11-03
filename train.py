@@ -13,7 +13,9 @@ import nltk  # Here to have a nice missing dependency error message early on
 
 import transformers
 from filelock import FileLock
-from InstructorEmbedding import Instructor, InstructorTransformer
+# from InstructorEmbedding import Instructor, InstructorTransformer
+from InstructorEmbedding import INSTRUCTOR as Instructor
+from InstructorEmbedding import INSTRUCTORTransformer, InstructorTransformer
 from transformers import (
     AutoTokenizer,
     DataCollatorForSeq2Seq,
