@@ -15,7 +15,7 @@ import transformers
 from filelock import FileLock
 # from InstructorEmbedding import Instructor, InstructorTransformer
 from InstructorEmbedding import INSTRUCTOR as Instructor
-from InstructorEmbedding import INSTRUCTORTransformer, InstructorTransformer
+from InstructorEmbedding import INSTRUCTORTransformer as InstructorTransformer
 from transformers import (
     AutoTokenizer,
     DataCollatorForSeq2Seq,
